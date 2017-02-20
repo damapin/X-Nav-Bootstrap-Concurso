@@ -1,0 +1,60 @@
+.navbar{
+  /* Warm */
+  /*background-color: #565656;*/
+  
+  /* Minimal */
+  background-color: #627993;
+  
+}
+.navbar-fixed-top{
+  border-bottom: none;
+}
+
+.jumbotron {
+  margin-bottom: 3px;
+  background-color: #76323F;/* Warm */
+  background-color: #96858F;/* Minimal*/
+  color: white;
+  margin-top: 3px;
+}
+
+.jumbotron a{
+  /* Minimal */
+  color: burlywood;
+}
+
+.buttons-row{
+  padding: 10px 0 10px 0;
+  background-color: #D5D5D5; 
+}
+
+.buttons-row .col-md-2,
+.buttons-row .col-sm-6,
+.buttons-row .col-xs-12{
+  border-right: 1px solid #96858F;
+}
+
+.dropdown-toggle {
+  border: none;
+  background-color: #D5D5D5
+}
+
+.dropdown-menu{
+  padding: 3px 3px 8px 6px;
+}
+
+.dropdown-menu .btn{
+  margin-top: 8px;
+}
+
+footer{
+  background-color: #627993;
+  color: antiquewhite;
+  padding: 14px 0 10px 0;
+}
+
+footer p{
+  margin-left: 10px;
+}
+
+
