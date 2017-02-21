@@ -10,13 +10,19 @@
   border-bottom: none;
 }
 
+.web-content{
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .jumbotron {
-  margin-bottom: 3px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  padding-top: 80px;
   background-color: #565656;/* Warm */
   /*background-color: #96858F;/* Minimal*/
-  color: white;
-  margin-top: 3px;
-  padding-top: 80px;
+  color: white; 
 }
 
 .jumbotron a{
@@ -26,16 +32,6 @@
 
 .buttons-row{
   padding: 10px 0 10px 0;
-}
-
-.buttons-row .col-md-2,
-.buttons-row .col-sm-6,
-.buttons-row .col-xs-12{
-  border-right: 1px solid #96858F;
-}
-
-#students-btn-col{
-  border-right: none;
 }
 
 .dropdown-toggle, #init{
@@ -53,14 +49,16 @@
 }
 
 .section{
-  margin: 0 0 5px 0;
-  padding: 5px 10px 5px 20px;
+  margin: 0 0 10px 0;
+  padding: 5px 10px 5px 30px;
   background-color: #D7CEC7;
+  border-radius: 6px; 
 }
 
-.section-icon{
-  text-align: center;
-  padding-top: 2em;
+.section-icon img{
+  padding: 2em 0 2em 7em;
+  height: 45%;
+  width: 45%;
 }
 
 footer{
@@ -82,12 +80,22 @@ footer a:hover{
   color: #76323F;
 }
 
+#icons-attribution{
+  float: left;
+  font-size: 0.8em;
+  text-align: left;
+  padding-left: 25px;
+}
+
+#icons-attribution a{
+  color: #D7CEC7;
+}
+
+#icons-attribution a:hover{
+  color: #76323F;
+}
+
 #code-link{
-  float: right;
+  text-align: center;
 }
-
-.glyphicon{
-  font-size: 100px;
-}
-
 
