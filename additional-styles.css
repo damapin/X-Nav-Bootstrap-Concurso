@@ -1,9 +1,9 @@
 .navbar{
   /* Warm */
-  /*background-color: #565656;*/
+  background-color: #76323F;
   
   /* Minimal */
-  background-color: #627993;
+  /*background-color: #627993;*/
   
 }
 .navbar-fixed-top{
@@ -12,10 +12,11 @@
 
 .jumbotron {
   margin-bottom: 3px;
-  background-color: #76323F;/* Warm */
-  background-color: #96858F;/* Minimal*/
+  background-color: #565656;/* Warm */
+  /*background-color: #96858F;/* Minimal*/
   color: white;
   margin-top: 3px;
+  padding-top: 80px;
 }
 
 .jumbotron a{
@@ -25,7 +26,6 @@
 
 .buttons-row{
   padding: 10px 0 10px 0;
-  background-color: #D5D5D5; 
 }
 
 .buttons-row .col-md-2,
@@ -34,9 +34,14 @@
   border-right: 1px solid #96858F;
 }
 
-.dropdown-toggle {
+#students-btn-col{
+  border-right: none;
+}
+
+.dropdown-toggle, #init{
   border: none;
-  background-color: #D5D5D5
+  background-color: #76323F;
+  color: antiquewhite;
 }
 
 .dropdown-menu{
@@ -47,14 +52,42 @@
   margin-top: 8px;
 }
 
+.section{
+  margin: 0 0 5px 0;
+  padding: 5px 10px 5px 20px;
+  background-color: #D7CEC7;
+}
+
+.section-icon{
+  text-align: center;
+  padding-top: 2em;
+}
+
 footer{
-  background-color: #627993;
+  background-color: #C09F80;
   color: antiquewhite;
   padding: 14px 0 10px 0;
 }
 
 footer p{
   margin-left: 10px;
+}
+
+footer a{
+  color: antiquewhite;
+  padding: 0 10px 0 10px;
+}
+
+footer a:hover{
+  color: #76323F;
+}
+
+#code-link{
+  float: right;
+}
+
+.glyphicon{
+  font-size: 100px;
 }
 
 
