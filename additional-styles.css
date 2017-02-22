@@ -10,6 +10,10 @@
   border-bottom: none;
 }
 
+.glyphicon{
+  size: 0.8em;
+}
+
 .web-content{
   width: 100%;
   margin-left: 0;
@@ -19,14 +23,14 @@
 #logoURJC{
   height: 30%;
   width: 30%;
-  ;
+  
 }
 .jumbotron {
   margin-bottom: 10px;
-  margin-top: 5px;
-  padding-top: 65px;
+  margin-top: 15px;
+  padding-top: 55px;
   color: antiquewhite;
-  background: url(./images/jumbotron-bg.png) left;
+  background: url(./images/jumbotron-bg.png) right;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -48,6 +52,7 @@
 
 .buttons-row{
   padding: 10px 0 10px 0;
+  margin-left: 4em;
 }
 
 .dropdown-toggle, #init{
@@ -96,21 +101,19 @@ footer a:hover{
   color: #76323F;
 }
 
-#icons-attribution{
+.attribution{
   float: left;
   font-size: 0.8em;
   text-align: left;
   padding-left: 25px;
 }
 
-/*#icons-attribution a{
-  color: #D7CEC7;
+#icons-attribution span{
+  vertical-align: middle;
+  padding-top: 7px;
 }
 
-#icons-attribution a:hover{
-  color: #76323F;
-}*/
-
 #code-link{
-  text-align: center;
+  text-align: right;
+  float:right;
 }
